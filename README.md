@@ -66,7 +66,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: KIRAN.J
 RegisterNumber:212221240022
 
-### 4x1 MULTIPLEXER:
+4x1 MULTIPLEXER:
 
 module MUX(I0,I1,I2,I3,S0,S1,Y);
 input I0,I1,I2,I3,S0,S1;
@@ -82,7 +82,7 @@ and(S,S0,S1,I3);
 or(Y,P,Q,R,S);
 endmodule
 
-### 1x4 DE MULTIPLEXER:
+1x4 DE MULTIPLEXER:
 
 module DEMUX(Y0,Y1,Y2,Y3,S0,S1,I);
 input S0,S1,I;
